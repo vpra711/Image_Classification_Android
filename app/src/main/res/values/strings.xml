@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Image Classification</string>
+    <string name="upload">Upload</string>
+    <string name="analyze">Analyze</string>
+    <string name="Fruit_Classification">Fruit Classification</string>
+    <string name="upload_images">Upload An Image</string>
+    <string name="result">Result</string>
+    <string name="menu">Menu</string>
+    <string name="viewAllResult">View All Result</string>
+    <string name="help_feed">Help and Feedback</string>
+    <string name="appVersion">App Version</string>
+    <string name="settings">Settings</string>
+    <string name="back">Back</string>
+    <string name="process">Processing...</string>
+    <string name="theme">Change Theme</string>
+    <string name="version_1_0_0">Version 1.0.0</string>
+    <string name="github">github</string>
+    <string name="mail">mail</string>
+    <string name="members">Members</string>
+    <string name="about">About</string>
+    <string name="contact_us">Contact us</string>
+
+    <!-- Social Links -->
+    <!--Linked In-->
+    <string name="vpraLI">\t\thttps://linkedin.com/abcdhh</string>
+    <string name="arsathLI">\t\thttps://linkedin.com/aba</string>
+    <string name="ahamedLI">\t\thttps://linkedin.com/abhh</string>
+    <!--Git hub repositories-->
+    <string name="github_repo">htttp://www.github.com</string>
+    <!--outlook mail-->
+    <string name="outlookmail">acube01@outlook.com</string>
+    <string name="was_it_correct">Was it Correct?</string>
+</resources>

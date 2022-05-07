@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+       <item
+       android:title="@string/menu"
+       app:showAsAction="ifRoom"
+       android:icon="@drawable/ic_menu">
+              <menu>
+                     <item
+                         android:id="@+id/viewallresultmi1x"
+                         android:title="@string/viewAllResult"/>
+                     <item
+                         android:id="@+id/aboutmi1x"
+                         android:title="@string/about"/>
+              </menu>
+       </item>
+</menu>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".HelpFragment">
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbartb3x"
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize"
+        android:layout_alignParentTop="true"
+        android:background="?attr/colorPrimary"
+        app:titleTextColor="@color/white">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Result"
+            android:textSize="25sp"
+            android:textColor="@color/white"
+            android:layout_marginStart="40dp"/>
+    </androidx.appcompat.widget.Toolbar>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/was_it_correct"
+        android:layout_marginTop="80dp"
+        android:textSize="30sp"
+        android:gravity="center"/>
+
+    <ImageButton
+        android:id="@+id/likeib1x"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="180dp"
+        android:src="@drawable/ic_mood_good" />
+    <ImageButton
+        android:id="@+id/dislikeib1x"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/ic_mood_bad"
+        android:layout_marginTop="180dp"
+        android:layout_marginStart="280dp"/>
+
+</RelativeLayout>

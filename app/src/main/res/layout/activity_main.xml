@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".MainActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbartb1x"
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize"
+        android:layout_alignParentTop="true"
+        android:background="?attr/colorPrimary"
+        app:titleTextColor="@color/white">
+
+        <ImageButton
+            android:id="@+id/themeib1x"
+            android:layout_width="26dp"
+            android:layout_height="24dp"
+            android:layout_gravity="end"
+            android:background="?attr/colorPrimary"
+            android:src="@drawable/ic_nighttheme"
+            tools:ignore="ContentDescription" />
+    </androidx.appcompat.widget.Toolbar>
+
+    <LinearLayout
+        android:id="@+id/linearLayoutImageView"
+        android:layout_width="match_parent"
+        android:layout_margin="10dp"
+        android:layout_height="250dp"
+        android:layout_below="@+id/toolbartb1x">
+
+        <ImageView
+            android:id="@+id/imgiv1x"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:background="@color/bgForImageView"
+            android:contentDescription="@string/upload_images"
+            android:src="@drawable/ic_upload"
+            tools:ignore="ImageContrastCheck,ImageContrastCheck" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:layout_above="@+id/bottomNavigationDrawer"
+        android:layout_below="@+id/linearLayoutImageView"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:text="@string/result"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/resulttv1x"
+            android:layout_width="match_parent"
+            android:layout_height="160dp"
+            android:layout_margin="10dp"
+            android:textSize="20sp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:orientation="horizontal">
+            <ImageButton
+                android:id="@+id/helpib1x"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_marginEnd="15dp"
+                android:visibility="invisible"
+                android:src="@drawable/ic_baseline_contact_support_24" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/bottomNavigationDrawer"
+        android:layout_width="match_parent"
+        android:layout_height="145dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/analyzeb1x"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/analyze"
+            android:text="@string/analyze"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/uploadb1x"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/uploadbtn"
+            android:text="@string/upload"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+</RelativeLayout>
